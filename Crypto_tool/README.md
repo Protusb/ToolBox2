@@ -17,7 +17,7 @@ The first program generates an encryption key and saves it as `Secret.key` in th
 Run the program:
 
 ```bash
-python key_generator.py
+python Generate_key.py
 ```
 Output:
 
@@ -28,7 +28,7 @@ The second program encrypts or decrypts a file using the `Secret.key` file.
 
 Run the program with the following arguments:
 ```bash
-python file_encrypt_decrypt.py <file_name> -m <mode>
+python Crypto_tool.py <file_name> -m <mode>
 ```
 ### Required Arguments
 - **file_name**: The name of the file to encrypt or decrypt.
@@ -36,10 +36,10 @@ python file_encrypt_decrypt.py <file_name> -m <mode>
 Example Usage
 ```bash
 # Encrypt a file named 'example.txt'
-python file_encrypt_decrypt.py example.txt -m encrypt
+python Crypto_tool.py example.txt -m encrypt
 
 # Decrypt a file named 'example.txt'
-python file_encrypt_decrypt.py example.txt -m decrypt
+python Crypto_tool.py example.txt -m decrypt
 ```
 Example Run Output
 ```plaintext

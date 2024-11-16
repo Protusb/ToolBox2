@@ -14,7 +14,7 @@ an online source.
 Run the script with the following arguments:
 
 ```bash
-python your_script_name.py <domain> -m <mode> -l <wordlist_file> -t <threads>
+python domain_enum.py <domain> -m <mode> -l <wordlist_file> -t <threads>
 ```
 
 ### Required Arguments
@@ -31,10 +31,10 @@ python your_script_name.py <domain> -m <mode> -l <wordlist_file> -t <threads>
 
 ```bash
 # Enumerate subdomains using a custom wordlist file with 5 threads
-python your_script_name.py example.com -m subdomains -l wordlist.txt -t 5
+python domain_enum.py example.com -m subdomains -l wordlist.txt -t 5
 
 # Enumerate directories using the default wordlist from GitHub
-python your_script_name.py example.com -m directories
+python domain_enum.py example.com -m directories
 ```
 
 ### Example Run Output

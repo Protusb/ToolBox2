@@ -13,7 +13,7 @@ This Python script attempts to crack a given hash by comparing it to the hashes 
 Run the script with the following arguments:
 
 ```bash
-python your_script_name.py <password_hash> -th <hash_type> -l <wordlist_file> -t <threads>
+python hash_cracker.py <password_hash> -th <hash_type> -l <wordlist_file> -t <threads>
 ```
 
 ### Required Arguments
@@ -30,10 +30,10 @@ python your_script_name.py <password_hash> -th <hash_type> -l <wordlist_file> -t
 
 ```bash
 # Using a custom wordlist file
-python your_script_name.py e10adc3949ba59abbe56e057f20f883e -th md5 -l wordlist.txt -t 5
+python hash_cracker.py e10adc3949ba59abbe56e057f20f883e -th md5 -l wordlist.txt -t 5
 
 # Using the default wordlist from GitHub
-python your_script_name.py e10adc3949ba59abbe56e057f20f883e -th md5
+python hash_cracker.py e10adc3949ba59abbe56e057f20f883e -th md5
 ```
 
 ### Example Run Output

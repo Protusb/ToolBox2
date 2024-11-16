@@ -14,7 +14,7 @@ and optionally save the scan results to an output file.
 
 1. **Run the Program**:
    ```bash
-   python your_script_name.py
+   python NmapScanner.py
    ```
 
 2. **Options in the Program**:
